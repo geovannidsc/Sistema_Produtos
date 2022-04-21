@@ -40,8 +40,8 @@ public class Produto {
 
 
 	public void etiquetar() {
-		
-		System.out.println(nome+ "R$ "+preco);
+		System.out.println();
+		System.out.println(nome+ " R$ "+preco);
 		
 	}
 	

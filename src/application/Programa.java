@@ -23,15 +23,20 @@ public class Programa {
 		System.out.print("Quantos Produtos deseja cadastrar? ");
 		int quantidade = teclado.nextInt();
 		
+		
 		for(int i=0; i< quantidade; i++) {
 			
+			 
+				
 			System.out.println("PRODUTO #"+i+1);
-			System.out.println("Comum, Usado ou Importado (c/u/i)?");
-			char m = teclado.next().charAt(0);
+			System.out.print("Comum, Usado ou Importado (c/u/i)?");
+			 char m = teclado.next().charAt(0);
+			
+			
 			
 			if (m =='c') {
 				
-				System.out.println("Nome: ");
+				System.out.print("Nome: ");
 				teclado.nextLine();
 				String nome = teclado.nextLine();
 				System.out.print("Preço: ");
